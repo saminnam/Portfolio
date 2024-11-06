@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS CSS
 import bck from '../assets/bck_v1.mp4';
+import MediaIcons from "./MediaIcons";
 
 const HeroSection = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section id="#" className="relative w-full h-screen overflow-hidden">
+    <section id="#" className="relative w-full h-screen overflow-hidden p-7">
       {/* Background Video */}
       <video
         autoPlay
@@ -27,34 +28,35 @@ const HeroSection = () => {
       <div className="absolute top-0 left-0 w-full h-full bg-slate-950 opacity-50"></div>
 
       {/* Content on top of video */}
-      <div className="relative z-10 w-full py-32 max-w-7xl mx-auto">
-        <div className="flex justify-between items-center">
+      <div className="z-10 w-full py-32 pt-40 max-w-7xl mx-auto">
+        <div className="flex flex-wrap justify-center gap-8 lg:justify-between items-center">
           <div className="text-white" data-aos="fade-up">
-            <h1 className="text-[60px] font-serif">Mr: Innamul Hasan</h1>
-            <h1 className="text-[60px] font-serif">
+            <h1 className="lg:text-[50px] text-[30px] font-serif">Mr: Innamul Hasan</h1>
+            <h1 className="lg:text-[60px] font-serif text-[32px]">
               <TypeAnimation
                 sequence={[
                   "Front-End Developer",
-                  1000,
-                  "Java Full Stack Developer",
-                  1000,
+                  2000,
+                  "Java Developer",
+                  2000,
                   "UI Web Designer",
-                  1000,
+                  2000,
                 ]}
                 wrapper="span"
                 speed={10}
                 repeat={Infinity}
               />
             </h1>
-            <p className="w-[560px] font-mono text-justify mt-5">
+            <p className="lg:w-[560px] w-full font-mono text-justify mt-5">
               As a Front-End Developer, I specialize in building interactive,
               user-friendly web applications using modern technologies like
               React, JavaScript, and CSS. My focus is on creating responsive and
               optimized interfaces that enhance user experience.
             </p>
+            <MediaIcons />
           </div>
 
-          <div className="w-[400px] h-[450px] flex items-center justify-center">
+          <div className="lg:w-[400px] lg:h-[450px] w-[300px] h-[250px] flex items-center justify-center">
             <div className="container noselect z-0">
               <div className="canvas">
                 {/* Your animated tracker divs */}

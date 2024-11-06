@@ -52,6 +52,9 @@ const Contact = () => {
       <section>
         {/* Container */}
         <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
+        <h2 className="text-3xl text-center my-16 font-bold md:text-5xl font-serif" data-aos="flip-down" data-aos-duration="1500">
+            Get in touch
+          </h2>
           {/* Component */}
           <div className="grid items-center gap-8 sm:gap-20 lg:grid-cols-2">
             <div className="max-w-3xl">
@@ -175,8 +178,8 @@ const Contact = () => {
                 </div>
                 <input
                   type="submit"
-                  value="Get free quote"
-                  className="inline-block w-full cursor-pointer rounded-md bg-blue-950 px-6 py-3 text-center text-white"
+                  value="Send"
+                  className="inline-block w-full cursor-pointer rounded-md bg-blue-800 px-6 py-3 text-center text-white"
                 />
               </form>
             </div>
