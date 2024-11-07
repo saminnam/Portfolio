@@ -11,6 +11,7 @@ import calculator from "../assets/calculator.png";
 import clock from "../assets/clock.png";
 import news from "../assets/news.png";
 import form from "../assets/form.png";
+import webpage from "../assets/webpage.png";
 
 const Projects = () => {
   const [active, setActive] = useState("Own Portfolios");
@@ -358,9 +359,10 @@ const Projects = () => {
                     <h5 className="mb-3 text-xl font-bold">Clock</h5>
                     <p className="flex-col text-gray-500">
                       {" "}
-                      Build a real-time clock project using JavaScript to display
-                      the current time dynamically. This digital clock updates
-                      every second and features a sleek, responsive design.
+                      Build a real-time clock project using JavaScript to
+                      display the current time dynamically. This digital clock
+                      updates every second and features a sleek, responsive
+                      design.
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
@@ -438,7 +440,7 @@ const Projects = () => {
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                 >
                   <img
                     src={news}
@@ -452,7 +454,10 @@ const Projects = () => {
                     </h5>
                     <p className="flex-col text-gray-500">
                       {" "}
-                      Developed a newspaper template using HTML and CSS as a beginner project to showcase my strong skills in web layout and styling, demonstrating proficiency in both HTML structure and CSS design techniques.                     
+                      Developed a newspaper template using HTML and CSS as a
+                      beginner project to showcase my strong skills in web
+                      layout and styling, demonstrating proficiency in both HTML
+                      structure and CSS design techniques.
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
@@ -492,12 +497,12 @@ const Projects = () => {
                     className="max-h-64 object-cover w-full rounded-t-lg"
                   />
                   <div className="px-5 py-8 sm:px-6">
-                    <h5 className="mb-3 text-xl font-bold">
-                      Form Validation
-                    </h5>
+                    <h5 className="mb-3 text-xl font-bold">Form Validation</h5>
                     <p className="flex-col text-gray-500">
                       {" "}
-                      Developed a user authentication project that includes both login and signup forms using HTML, CSS, and JavaScript. This beginner project allows users to register and access.                     
+                      Developed a user authentication project that includes both
+                      login and signup forms using HTML, CSS, and JavaScript.
+                      This beginner project allows users to register and access.
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
@@ -513,6 +518,50 @@ const Projects = () => {
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <a
                         href=" https://saminnam.github.io/form-validation/"
+                        className="r flex max-w-full gap-2.5 text-sm font-bold uppercase text-black"
+                      >
+                        <p>VISIT WEBSITE</p>
+                        <img
+                          src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b636d7c440a74b4076b278_button-link.svg"
+                          alt=""
+                          className="inline-block"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>{" "}
+                <div
+                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src={webpage}
+                    alt="webpage-img"
+                    loading="lazy"
+                    className="max-h-64 object-cover w-full rounded-t-lg"
+                  />
+                  <div className="px-5 py-8 sm:px-6">
+                    <h5 className="mb-3 text-xl font-bold">Beginner webpage</h5>
+                    <p className="flex-col text-gray-500">
+                      {" "}
+                      I have developed a beginner project using HTML and CSS
+                      with an appealing layout.
+                    </p>
+                    <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>HTML</p>
+                      </div>
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>CSS</p>
+                      </div>
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>UI DESIGN</p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-between gap-4">
+                      <a
+                        href="https://saminnam.github.io/beginner-website/"
                         className="r flex max-w-full gap-2.5 text-sm font-bold uppercase text-black"
                       >
                         <p>VISIT WEBSITE</p>

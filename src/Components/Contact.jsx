@@ -179,7 +179,7 @@ const Contact = () => {
                 <input
                   type="submit"
                   value="Send"
-                  className="inline-block w-full cursor-pointer rounded-md bg-blue-800 px-6 py-3 text-center text-white"
+                  className="inline-block hover:bg-white hover:text-blue-800 border-blue-800 border w-full cursor-pointer rounded-md bg-blue-800 px-6 py-3 text-center text-white"
                 />
               </form>
             </div>

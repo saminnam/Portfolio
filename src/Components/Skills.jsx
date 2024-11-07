@@ -20,7 +20,7 @@ const Skills = () => {
           <div className="h-full w-full">
             <video
               src={codingmp4}
-              className="mx-auto inline-block lg:h-[680px] rounded-lg h-full w-full max-w-2xl object-cover"
+              className="mx-auto inline-block lg:h-[890px] rounded-lg h-full w-full max-w-2xl object-cover"
               autoPlay
               muted
               loop
@@ -93,6 +93,28 @@ const Skills = () => {
               <p className="mb-4 font-semibold">TAILWIND</p>
               <p className="text-sm text-gray-500">
               I have 6 months of experience in Tailwind and the ability to handle Tailwind classes efficiently for responsive design.
+              </p>
+            </li>
+            <li className="flex flex-col p-5 education_card" data-aos="fade-up">
+              <img
+                src="https://blog.ag-grid.com/content/images/2021/11/200pxArtboard-5.png"
+                alt="javascriptlogo"
+                className="mb-4 object-cover inline-block h-10 w-10 rounded-full"
+              />
+              <p className="mb-4 font-semibold">AG-GRID</p>
+              <p className="text-sm text-gray-500">
+              I have build some dashboard's for client's using AG-GRID.
+              </p>
+            </li>
+            <li className="flex flex-col p-5 education_card" data-aos="fade-up">
+              <img
+                src="https://www.svgrepo.com/show/303557/redux-logo.svg"
+                alt="javascriptlogo"
+                className="mb-4 object-cover inline-block h-10 w-10 rounded-full"
+              />
+              <p className="mb-4 font-semibold">REDUX</p>
+              <p className="text-sm text-gray-500">
+              I'm currently learning redux to implement in future projects.
               </p>
             </li>
           </ul>
