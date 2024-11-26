@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Contact = () => {
-  // State for form fields and errors
   const [formData, setFormData] = useState({
     username: "",
     email: "",

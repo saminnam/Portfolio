@@ -1,19 +1,17 @@
-import React, { useEffect } from "react";
-import innamImg from "../assets/innamImg.jpg";
+import { useEffect } from "react";
 import { TypeAnimation } from "react-type-animation";
-import AOS from "aos"; // Import AOS
-import "aos/dist/aos.css"; // Import AOS CSS
+import AOS from "aos"; 
+import "aos/dist/aos.css"; 
 import bck from '../assets/bck_v1.mp4';
 import MediaIcons from "./MediaIcons";
 
 const HeroSection = () => {
   useEffect(() => {
-    AOS.init(); // Initialize AOS
+    AOS.init(); 
   }, []);
 
   return (
     <section id="#" className="relative w-full h-screen overflow-hidden p-7">
-      {/* Background Video */}
       <video
         autoPlay
         muted
@@ -23,7 +21,6 @@ const HeroSection = () => {
         <source src={bck} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
-
       {/* Overlay to darken the background */}
       <div className="absolute top-0 left-0 w-full h-full bg-slate-950 opacity-50"></div>
 

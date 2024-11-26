@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import portfolio_logo from "../assets/portfolio.png";
+import { GoListUnordered } from "react-icons/go";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -65,42 +66,12 @@ const Header = () => {
                 CONTACT
               </a>
             </div>
-
-            {/* Mobile menu toggle */}
             <button
-              className="absolute right-5 bg-white lg:hidden"
+              className="absolute top-8 right-5 lg:hidden"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle mobile menu"
             >
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M3.75 12H20.25"
-                  stroke="#160042"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M3.75 6H20.25"
-                  stroke="#160042"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-                <path
-                  d="M3.75 18H20.25"
-                  stroke="#160042"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                ></path>
-              </svg>
+             <GoListUnordered className="text-4xl"/>
             </button>
 
             <div

@@ -1,5 +1,3 @@
-import React from "react";
-
 const MediaIcons = () => {
   return (
     <div className="mt-10">

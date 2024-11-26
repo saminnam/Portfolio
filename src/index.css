@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 .cursor-dot {
@@ -53,7 +54,6 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../src/assets/innamImg.jpg");
-  /* background: linear-gradient(43deg, rgb(65, 88, 208) 0%, rgb(200, 80, 192) 46%, rgb(255, 204, 112) 100%); */
 }
 
 #prompt {
@@ -533,4 +533,11 @@ label span {
   left: auto;
   right: 15%;
   animation-delay: .3s;
+}
+
+@media screen and (max-width: 750px)  {
+  .cursor-dot,
+  .cursor-outline {
+    display: none;
+  }
 }

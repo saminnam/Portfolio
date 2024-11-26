@@ -1,4 +1,3 @@
-import React from "react";
 import cv from '../assets/cv.pdf';
 
 const About = () => {

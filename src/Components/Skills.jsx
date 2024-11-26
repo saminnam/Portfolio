@@ -1,4 +1,3 @@
-import React from "react";
 import codingmp4 from "../assets/coding.mp4";
 
 const Skills = () => {
@@ -20,14 +19,14 @@ const Skills = () => {
           <div className="h-full w-full">
             <video
               src={codingmp4}
-              className="mx-auto inline-block lg:h-[890px] rounded-lg h-full w-full max-w-2xl object-cover"
+              className="mx-auto inline-block lg:h-[940px] rounded-lg h-full w-full max-w-2xl object-cover"
               autoPlay
               muted
               loop
             ></video>
           </div>
           {/* List */}
-          <ul className="grid max-w-2xl grid-cols-2 sm:gap-5 lg:max-w-none">
+          <ul className="grid max-w-2xl md:grid-rows-4 md:grid-cols-2 grid-cols-1 md:gap-5 gap-5 lg:max-w-none">
             <li className="flex flex-col p-5 education_card" data-aos="fade-up">
               <img
                 src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
@@ -109,7 +108,7 @@ const Skills = () => {
             <li className="flex flex-col p-5 education_card" data-aos="fade-up">
               <img
                 src="https://www.svgrepo.com/show/303557/redux-logo.svg"
-                alt="javascriptlogo"
+                alt="reduxlogo"
                 className="mb-4 object-cover inline-block h-10 w-10 rounded-full"
               />
               <p className="mb-4 font-semibold">REDUX</p>

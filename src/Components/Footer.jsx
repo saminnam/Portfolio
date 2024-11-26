@@ -1,7 +1,3 @@
-import React from "react";
-import portfolio_logo from "../assets/portfolio_logo.png";
-import MediaIcons from "./MediaIcons";
-
 const Footer = () => {
   return (
     <footer className="block">

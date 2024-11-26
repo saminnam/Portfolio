@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import hostel from "../assets/hostel.png";
 import food_order from "../assets/food_order.png";
 import e_commerce from "../assets/e_commerce.png";
@@ -12,6 +12,7 @@ import clock from "../assets/clock.png";
 import news from "../assets/news.png";
 import form from "../assets/form.png";
 import webpage from "../assets/webpage.png";
+import flight from "../assets/flight.png";
 
 const Projects = () => {
   const [active, setActive] = useState("Own Portfolios");
@@ -71,23 +72,20 @@ const Projects = () => {
                   data-aos-duration="1000"
                 >
                   <img
-                    src={todo}
-                    alt="todo-img"
+                    src={flight}
+                    alt="flight-img"
                     loading="lazy"
                     className="max-h-64 object-cover w-full rounded-t-lg"
                   />
                   <div className="px-5 py-8 sm:px-6">
-                    <h5 className="mb-3 text-xl font-bold">Todo-List</h5>
+                    <h5 className="mb-3 text-xl font-bold">Flight-Booking</h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
-                      Developed a Todo List application with features to add new
-                      tasks, update existing tasks, and delete tasks, with
-                      real-time status updates and persistent data storage for
-                      seamless task management.
+                      Currently the development process going on for Flight
+                      booking website.
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
-                        <p>WEB DESIGN</p>
+                        <p>UI DESIGN</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
                         <p>REACT JS</p>
@@ -98,7 +96,7 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <a
-                        href="https://innam-todo.netlify.app"
+                        href="https://travel-lift.netlify.app"
                         className="r flex max-w-full gap-2.5 d-sm font-bold uppercase"
                       >
                         <p>VISIT WEBSITE</p>
@@ -110,7 +108,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border rounded-lg border-solid border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -124,12 +122,11 @@ const Projects = () => {
                   />
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 d-xl font-bold">Food-Order Website</h5>
-                    <p className="flex-col d-gray-500">
-                      {" "}
+                    <p className="flex-col text-gray-500">
                       Developed a Food-Order website that allows users to browse
                       products, add items to the cart, and view the cart. The
                       cart page displays the individual prices of products along
-                      with the total amount for all items in the cart.{" "}
+                      with the total amount for all items in the cart.
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
@@ -156,11 +153,57 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="1000"
+                  data-aos-duration="2000"
+                >
+                  <img
+                    src={info}
+                    alt="info-img"
+                    loading="lazy"
+                    className="max-h-64 object-cover w-full rounded-t-lg"
+                  />
+                  <div className="px-5 py-8 sm:px-6">
+                    <h5 className="mb-3 text-xl font-bold">
+                      Info-Tech Website
+                    </h5>
+                    <p className="flex-col text-gray-500">
+                      Developed a website for Innam Info Technologies to
+                      showcase its features, services, and portfolio, enabling
+                      efficient management of client projects.
+                    </p>
+                    <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>WEB DESIGN</p>
+                      </div>
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>REACT JS</p>
+                      </div>
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>RESPONSIVE</p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-between gap-4">
+                      <a
+                        href="https://inamtech.netlify.app"
+                        className="r flex max-w-full gap-2.5 text-sm font-bold uppercase text-black"
+                      >
+                        <p>VISIT WEBSITE</p>
+                        <img
+                          src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b636d7c440a74b4076b278_button-link.svg"
+                          alt=""
+                          className="inline-block"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
                 >
                   <img
                     src={e_commerce}
@@ -170,12 +213,11 @@ const Projects = () => {
                   />
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 d-xl font-bold">E-Commerce</h5>
-                    <p className="flex-col d-gray-500">
-                      {" "}
+                    <p className="flex-col text-gray-500">
                       Developed an E-commerce website featuring product
                       displays, accessible after user login. The platform
                       provides a secure login system, allowing customers to view
-                      and purchase products once authenticated.{" "}
+                      and purchase products once authenticated.
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
@@ -202,7 +244,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -216,8 +258,7 @@ const Projects = () => {
                   />
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 d-xl font-bold">API Products List</h5>
-                    <p className="flex-col d-gray-500">
-                      {" "}
+                    <p className="flex-col text-gray-500">
                       Create an API Products List using the Fetch API to
                       dynamically retrieve and display product data. This
                       approach ensures real-time updates and seamless
@@ -249,7 +290,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -266,7 +307,6 @@ const Projects = () => {
                       Currency-Converter
                     </h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
                       Build a dynamic Currency Converter using React.js and a
                       reliable API for real-time exchange rates. This
                       React-based app ensures quick and accurate currency
@@ -297,7 +337,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -312,7 +352,6 @@ const Projects = () => {
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 text-xl font-bold">Calculator</h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
                       Develop a Calculator project using JavaScript to perform
                       basic arithmetic operations. This interactive calculator
                       offers a user-friendly interface with responsive design
@@ -343,7 +382,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -358,7 +397,6 @@ const Projects = () => {
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 text-xl font-bold">Clock</h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
                       Build a real-time clock project using JavaScript to
                       display the current time dynamically. This digital clock
                       updates every second and features a sleek, responsive
@@ -389,43 +427,41 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 w-[400px] border border-solid hover:shadow-xl rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                 >
                   <img
-                    src={info}
-                    alt="info-img"
+                    src={todo}
+                    alt="todo-img"
                     loading="lazy"
                     className="max-h-64 object-cover w-full rounded-t-lg"
                   />
                   <div className="px-5 py-8 sm:px-6">
-                    <h5 className="mb-3 text-xl font-bold">
-                      Info-Tech Website
-                    </h5>
+                    <h5 className="mb-3 text-xl font-bold">Todo-List</h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
-                      Developed a website for Innam Info Technologies to
-                      showcase its features, services, and portfolio, enabling
-                      efficient management of client projects.
+                      Developed a Todo List application with features to add new
+                      tasks, update existing tasks, and delete tasks, with
+                      real-time status updates and persistent data storage for
+                      seamless task management.
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
                         <p>WEB DESIGN</p>
                       </div>
-                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                      <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
                         <p>REACT JS</p>
                       </div>
-                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                      <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
                         <p>RESPONSIVE</p>
                       </div>
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <a
-                        href="https://inamtech.netlify.app"
-                        className="r flex max-w-full gap-2.5 text-sm font-bold uppercase text-black"
+                        href="https://innam-todo.netlify.app"
+                        className="r flex max-w-full gap-2.5 d-sm font-bold uppercase"
                       >
                         <p>VISIT WEBSITE</p>
                         <img
@@ -436,7 +472,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -453,7 +489,6 @@ const Projects = () => {
                       Newspaper Template
                     </h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
                       Developed a newspaper template using HTML and CSS as a
                       beginner project to showcase my strong skills in web
                       layout and styling, demonstrating proficiency in both HTML
@@ -484,7 +519,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -499,7 +534,6 @@ const Projects = () => {
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 text-xl font-bold">Form Validation</h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
                       Developed a user authentication project that includes both
                       login and signup forms using HTML, CSS, and JavaScript.
                       This beginner project allows users to register and access.
@@ -529,7 +563,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -544,7 +578,6 @@ const Projects = () => {
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 text-xl font-bold">Beginner webpage</h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
                       I have developed a beginner project using HTML and CSS
                       with an appealing layout.
                     </p>
@@ -573,7 +606,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
               </>
             )}
 
@@ -594,7 +627,6 @@ const Projects = () => {
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 text-xl font-bold">Hostel Website</h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
                       Developed a website to display hostels with their
                       locations and listed features. Users can book hostel rooms
                       through the booking form provided.
@@ -624,7 +656,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
@@ -641,7 +673,6 @@ const Projects = () => {
                       Keyan-Tech Website
                     </h5>
                     <p className="flex-col text-gray-500">
-                      {" "}
                       Developed a website for Keyan Technologies to showcase its
                       features, services, and portfolio, enabling efficient
                       management of client projects.
@@ -671,7 +702,7 @@ const Projects = () => {
                       </a>
                     </div>
                   </div>
-                </div>{" "}
+                </div>
               </>
             )}
           </div>
