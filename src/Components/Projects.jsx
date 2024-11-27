@@ -24,7 +24,7 @@ const Projects = () => {
         {/* Component */}
         <div className="flex flex-col items-center">
           {/* Heading Div */}
-          <div className="mb-8 max-w-3xl text-center">
+          <div className="mb-8 max-w-3xl w-full text-center">
             <h2
               className="mb-4 mt-6 text-3xl font-bold md:text-5xl font-serif"
               data-aos="flip-down"
@@ -59,14 +59,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
-
-          {/* Blog Content */}
           <div className="flex flex-wrap justify-center gap-5">
             {active === "Own Portfolios" && (
               <>
                 {/* Own Portfolios Items */}
                 <div
-                  className="mb-12 w-[400px] border border-solid hover:shadow-xl rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  border border-solid hover:shadow-xl rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -109,7 +107,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border rounded-lg border-solid border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border rounded-lg border-solid border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -154,7 +152,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -200,7 +198,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -245,7 +243,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -291,7 +289,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -338,7 +336,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -383,7 +381,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -428,7 +426,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] border border-solid hover:shadow-xl rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  border border-solid hover:shadow-xl rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -473,7 +471,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -520,7 +518,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -564,7 +562,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
@@ -613,7 +611,7 @@ const Projects = () => {
               <>
                 {/* Company Portfolios Items */}
                 <div
-                  className="mb-12 border w-[400px] hover:shadow-xl border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 border md:w-[400px] w-full  hover:shadow-xl border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -657,7 +655,7 @@ const Projects = () => {
                   </div>
                 </div>
                 <div
-                  className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="2000"
                 >
