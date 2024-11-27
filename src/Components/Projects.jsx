@@ -35,7 +35,6 @@ const Projects = () => {
             <p className="mx-auto mt-4 text-gray-500">
               Get inspired by design and websites
             </p>
-
             {/* Select */}
             <div className="relative mx-auto flex-col md:flex-row mt-8 flex w-fit cursor-pointer rounded-xl bg-gray-100 md:mt-12">
               <div
@@ -157,7 +156,7 @@ const Projects = () => {
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                 >
                   <img
                     src={info}
@@ -248,7 +247,7 @@ const Projects = () => {
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                 >
                   <img
                     src={api_list}
@@ -294,7 +293,7 @@ const Projects = () => {
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="1000"
+                  data-aos-duration="2000"
                 >
                   <img
                     src={Converter}
@@ -341,7 +340,7 @@ const Projects = () => {
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                 >
                   <img
                     src={calculator}
@@ -386,7 +385,7 @@ const Projects = () => {
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="1000"
+                  data-aos-duration="2000"
                 >
                   <img
                     src={clock}
@@ -476,7 +475,7 @@ const Projects = () => {
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="1000"
+                  data-aos-duration="2000"
                 >
                   <img
                     src={news}
@@ -523,7 +522,7 @@ const Projects = () => {
                 <div
                   className="mb-12 w-[400px] hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                 >
                   <img
                     src={form}
