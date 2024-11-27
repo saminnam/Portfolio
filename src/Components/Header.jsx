@@ -79,30 +79,34 @@ const Header = () => {
                 isMobileMenuOpen ? "translate-x-0" : "-translate-x-full"
               }`}
             >
-              <a href="/" className="font-inter px-4 py-2 hover:text-blue-600">
+              <a href="/" className="font-inter px-4 py-2 hover:text-blue-600"  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
                 HOME
               </a>
               <a
                 href="#about"
                 className="font-inter px-4 py-2 hover:text-blue-600"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 ABOUT
               </a>
               <a
                 href="#skills"
                 className="font-inter px-4 py-2 hover:text-blue-600"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 SERVICES
               </a>
               <a
                 href="#projects"
                 className="font-inter px-4 py-2 hover:text-blue-600"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 PROJECTS
               </a>
               <a
                 href="#contact"
                 className="font-inter px-4 py-2 hover:text-blue-600"
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
                 CONTACT
               </a>
