@@ -575,7 +575,7 @@ const Projects = () => {
                     className="max-h-64 object-cover w-full rounded-t-lg"
                   />
                   <div className="px-5 py-8 sm:px-6">
-                    <h5 className="mb-3 text-xl font-bold">Beginner webpage</h5>
+                    <h5 className="mb-3 text-xl font-bold">Beginner Webpage</h5>
                     <p className="flex-col text-gray-500">
                       I have developed a beginner project using HTML and CSS
                       with an appealing layout.
