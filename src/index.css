@@ -7,6 +7,10 @@ html {
   scroll-padding-top: 5rem;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .cursor-dot {
   width: 10px;
   height: 10px;
