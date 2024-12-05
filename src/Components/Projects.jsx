@@ -179,7 +179,7 @@ const Projects = () => {
                         <p>REACT JS</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
-                        <p>RESPONSIVE</p>
+                        <p>BOOTSTRAP</p>
                       </div>
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-4">
