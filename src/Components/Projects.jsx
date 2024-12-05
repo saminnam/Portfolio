@@ -82,7 +82,7 @@ const Projects = () => {
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
-                        <p>UI DESIGN</p>
+                        <p>WEB DESIGN</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
                         <p>REACT JS</p>
@@ -493,7 +493,7 @@ const Projects = () => {
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
-                        <p>NEWSPAPER LAYOUT</p>
+                        <p>DESIGN LAYOUT</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
                         <p>HTML</p>
