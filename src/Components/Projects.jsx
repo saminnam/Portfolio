@@ -626,7 +626,7 @@ const Projects = () => {
                     <p className="flex-col text-gray-500">
                       Developed a website to display hostels with their
                       locations and listed features. Users can book hostel rooms
-                      through the booking form provided.
+                      through the booking form provided. (Currently under development process)
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
@@ -672,7 +672,7 @@ const Projects = () => {
                     <p className="flex-col text-gray-500">
                       Developed a website for Keyan Technologies to showcase its
                       features, services, and portfolio, enabling efficient
-                      management of client projects.
+                      management of client projects. (Currently under development process)
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
