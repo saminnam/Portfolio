@@ -8,6 +8,7 @@ import Projects from "./Components/Projects";
 import AOS from "aos";
 import Contact from "./Components/Contact";
 import Services from "./Components/Services";
+import ScrollToTopButton from "./Components/ScrollTopBtn";
 
 const App = () => {
   const [loader, setLoader] = useState(false);
@@ -33,17 +34,18 @@ const App = () => {
     <>
       {loader === true ? (
         <div className="w-full h-100vh flex items-center justify-center">
-          <div class="wrapper">
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="circle"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
-            <div class="shadow"></div>
+          <div className="wrapper">
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="circle"></div>
+            <div className="shadow"></div>
+            <div className="shadow"></div>
+            <div className="shadow"></div>
           </div>
         </div>
       ) : (
         <div className="scroll-smooth">
+          <ScrollToTopButton/>
           <Header />
           <HeroSection />
           <About />
