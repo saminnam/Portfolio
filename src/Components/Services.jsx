@@ -1,3 +1,6 @@
+import img1 from "../assets/web-design.jpg";
+import img2 from "../assets/web-develop.jpeg";
+import img3 from "../assets/landing-page.png";
 
 const Services = () => {
   const servicesData = [
@@ -5,25 +8,22 @@ const Services = () => {
       title: "Web Design",
       description:
         "Web design involves creating visually appealing, user-friendly websites that prioritize responsive layouts and optimized performance. Key aspects include HTML, CSS, and SEO integration for enhancing user experience and search engine rankings.",
-      imgSrc:
-        "https://www.onlinelogomaker.com/blog/wp-content/uploads/2020/09/1dbb4a00f3b2d8e85691bea98a621885.jpg",
+      imgSrc: img1,
       alt: "design",
     },
     {
       title: "Web Development",
       description:
         "Web development focuses on building and maintaining websites using programming languages like React Js. It includes both front-end and back-end development, ensuring functionality, performance, and scalability.",
-      imgSrc:
-        "https://th.bing.com/th/id/OIP.xi_VY54V535hztHz11VTyQHaFL?rs=1&pid=ImgDetMain",
+      imgSrc: img2,
       alt: "development",
     },
     {
-      title: "App Development",
+      title: "Landing pages",
       description:
-        "App development involves designing and building mobile or web applications using languages like Java, Swift, or React Native. Key aspects include user interface (UI) design, performance optimization, and cross-platform compatibility.",
-      imgSrc:
-        "https://img.freepik.com/premium-photo/phone-mobile-application-development-concept-mobile-internet-3d-illustration_76964-5164.jpg?w=2000",
-      alt: "app-development",
+        "Landing pages are standalone web pages designed to capture user attention and drive specific actions, such as signing up or making a purchase. They focus on clear messaging, engaging visuals, and strong calls-to-action (CTAs).",
+      imgSrc: img3,
+      alt: "Landing pages",
     },
   ];
 
@@ -33,7 +33,11 @@ const Services = () => {
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
         {/* Title */}
         <div className="flex flex-col items-center text-center">
-          <h2 className="text-3xl font-bold md:text-5xl font-serif" data-aos="flip-down" data-aos-duration="1500">
+          <h2
+            className="text-3xl font-bold md:text-5xl font-serif"
+            data-aos="flip-down"
+            data-aos-duration="1500"
+          >
             Services
           </h2>
           <p className="mb-8 mt-4 max-w-lg text-base text-gray-500 md:mb-12 md:text-lg lg:mb-16">
@@ -47,16 +51,16 @@ const Services = () => {
           {servicesData.map((service, index) => (
             <div
               key={index}
-              className="grid gap-6 rounded-md border border-solid border-gray-300 p-8 md:p-10 hover:border-blue-700"
+              className="grid gap-6 group cursor-pointer rounded-md border border-solid border-gray-300 p-8 md:p-10 hover:border-blue-700"
               data-aos="fade-up"
             >
               <img
                 src={service.imgSrc}
                 alt={service.alt}
-                className="inline-block h-16 w-16 object-cover rounded-full"
+                className="inline-block group-hover:scale-105 transition-all ease-linear duration-300 h-16 w-16 object-cover rounded-full"
               />
               <h3 className="text-xl font-semibold">{service.title}</h3>
-              <p className="text-sm text-gray-500 text-justify">
+              <p className="text-sm group-hover:scale-105 transition-all ease-linear duration-300 text-gray-500 text-justify">
                 {service.description}
               </p>
             </div>
