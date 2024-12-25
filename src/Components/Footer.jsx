@@ -14,7 +14,7 @@ const Footer = () => {
           </a>
           <div className="text-center font-semibold">
             <a
-              href="#home"
+              href="#"
               className="inline-block px-6 py-2 font-bold text-black transition hover:text-blue-700"
             >
               Home
