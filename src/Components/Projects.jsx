@@ -19,11 +19,8 @@ const Projects = () => {
 
   return (
     <section id="projects">
-      {/* Container */}
       <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-20">
-        {/* Component */}
         <div className="flex flex-col items-center">
-          {/* Heading Div */}
           <div className="mb-8 max-w-3xl w-full text-center">
             <h2
               className="mb-4 mt-6 text-3xl font-bold md:text-5xl font-serif"
@@ -35,7 +32,6 @@ const Projects = () => {
             <p className="mx-auto mt-4 text-gray-500">
               Get inspired by design and websites
             </p>
-            {/* Select */}
             <div className="relative mx-auto flex-col md:flex-row mt-8 flex w-fit cursor-pointer rounded-xl bg-gray-100 md:mt-12">
               <div
                 onClick={() => setActive("Own Portfolios")}
@@ -59,12 +55,12 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-wrap justify-center gap-5">
+          <div className="flex flex-wrap justify-center group gap-5">
             {active === "Own Portfolios" && (
               <>
                 {/* Own Portfolios Items */}
                 <div
-                  className="mb-12 md:w-[400px] w-full  border border-solid hover:shadow-xl rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  className="mb-12 md:w-[400px] w-full border border-solid hover:shadow-xl rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
                   data-aos-duration="1000"
                 >
@@ -641,7 +637,7 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <a
-                        href="https://brindhavanam-hostel.netlify.app"
+                        href="https://www.brindhavanamhostels.com/"
                         className="r flex max-w-full gap-2.5 text-sm font-bold uppercase text-black"
                       >
                         <p>VISIT WEBSITE</p>
@@ -687,7 +683,7 @@ const Projects = () => {
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <a
-                        href="https://keyantechnologies.netlify.app"
+                        href="https://www.keyantechnologies.com/"
                         className="r flex max-w-full gap-2.5 text-sm font-bold uppercase text-black"
                       >
                         <p>VISIT WEBSITE</p>
