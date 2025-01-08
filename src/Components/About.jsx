@@ -1,15 +1,18 @@
-import cv from '../assets/cv.pdf';
+import cv from "../assets/cv.pdf";
 
 const About = () => {
   return (
     <section id="about">
-      {/* Container */}
       <div className="mx-auto w-full max-w-7xl px-5 py-12 md:px-10 md:py-16 lg:py-20">
-        {/* Component */}
         <div className="flex flex-col gap-8 lg:flex-row lg:gap-10">
-          {/* Content */}
           <div className="flex flex-col gap-8 lg:w-3/5">
-            <h2 className="text-3xl font-bold md:text-5xl font-serif" data-aos="flip-down" data-aos-duration="1500">About us</h2>
+            <h2
+              className="text-3xl font-bold md:text-5xl font-serif"
+              data-aos="flip-down"
+              data-aos-duration="1500"
+            >
+              About us
+            </h2>
             <div className="w-[140px] h-[5px] bg-blue-600 rounded"></div>
             <p className="text-sm sm:text-base font-serif">
               As a Front-End Developer, I bring designs to life using HTML, CSS,
@@ -20,7 +23,10 @@ const About = () => {
               Adobe XD and Figma to craft engaging interfaces. My goal is to
               enhance the user experience through thoughtful design choices.
             </p>
-            <a href={cv} class="btn_download w-48 rounded-md px-4 py-3 text-center font-semibold">
+            <a
+              href={cv}
+              className="btn_download w-48 rounded-md px-4 py-3 text-center font-semibold"
+            >
               <svg
                 stroke-linejoin="round"
                 stroke-linecap="round"
@@ -30,7 +36,7 @@ const About = () => {
                 viewBox="0 0 24 24"
                 height="40"
                 width="40"
-                class="button__icon"
+                className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path fill="none" d="M0 0h24v24H0z" stroke="none"></path>
@@ -38,10 +44,9 @@ const About = () => {
                 <path d="M7 11l5 5l5 -5"></path>
                 <path d="M12 4l0 12"></path>
               </svg>
-              <span class="button__text">Download CV</span>
+              <span className="button__text">Download CV</span>
             </a>
-            {/* Divider */} <div className="my-8 h-px w-full bg-black"></div>
-            {/* Testimonials */}
+            <div className="my-8 h-px w-full bg-black"></div>
             <div className="grid gap-8 md:grid-cols-3 md:gap-4">
               <div
                 className="flex flex-col gap-4 education_card h-auto rounded-md border border-solid bg-gray-100 p-6"
@@ -50,8 +55,9 @@ const About = () => {
               >
                 <h4 className="font-bold font-serif">Education</h4>
                 <p className="text-sm font-serif">
-                  I have Graduated in B.Com (Commerce) on 2023 and B.A (Arabic) on 2024 both
-                  at University Of Madras. And I have scored 70% on both UG's.
+                  I have Graduated in B.Com (Commerce) on 2023 and B.A (Arabic)
+                  on 2024 both at University Of Madras. And I have scored 70% on
+                  both UG's.
                 </p>
               </div>
               <div
@@ -61,8 +67,8 @@ const About = () => {
               >
                 <h4 className="font-bold font-serif">Certification</h4>
                 <p className="text-sm font-serif">
-                  I have certified in Full-Stack Development for 6 months full-time
-                  course at Tambaram Adventure Learning. (Year - 2024)
+                  I have certified in Full-Stack Development for 6 months
+                  full-time course at Tambaram Adventure Learning. (Year - 2024)
                 </p>
               </div>
               <div
@@ -72,14 +78,13 @@ const About = () => {
               >
                 <h4 className="font-bold font-serif">Experience</h4>
                 <p className="text-sm font-serif">
-                  I have 6 months of experience as a front-end developer. And
-                  I'm currently working at <b>"Inetz Technologies"</b> also handling the
-                  clients projects as a front-end developer.
+                  I have 1 year of experience as a front-end developer at Adventure Technologies. And I'm
+                  currently working at <b>"Inetz Technologies"</b> also handling
+                  the clients projects as a front-end developer.
                 </p>
               </div>
             </div>
           </div>
-          {/* Image */}
           <div className="w-full rounded-md bg-gray-100 max-[991px]:h-[475px] lg:w-2/5">
             <img
               src="https://www.karbec.com.au/wp-content/uploads/2018/05/managed_services.jpg"
