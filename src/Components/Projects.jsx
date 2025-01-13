@@ -13,6 +13,7 @@ import news from "../assets/news.png";
 import form from "../assets/form.png";
 import webpage from "../assets/webpage.png";
 import flight from "../assets/flight.png";
+import productList from "../assets/api-filter.png";
 
 const Projects = () => {
   const [active, setActive] = useState("Own Portfolios");
@@ -78,13 +79,13 @@ const Projects = () => {
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
-                        <p>WEB DESIGN</p>
+                        <p>UI & UX</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
                         <p>REACT JS</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
-                        <p>RESPONSIVE</p>
+                        <p>TAILWIND CSS</p>
                       </div>
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-4">
@@ -123,13 +124,13 @@ const Projects = () => {
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
-                        <p>WEB DESIGN</p>
+                        <p>UI & UX</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
                         <p>REACT JS</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 d-sm font-semibold uppercase text-blue-800">
-                        <p>RESPONSIVE</p>
+                        <p>BOOTSTRAP</p>
                       </div>
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-4">
@@ -153,34 +154,34 @@ const Projects = () => {
                   data-aos-duration="1000"
                 >
                   <img
-                    src={info}
-                    alt="info-img"
+                    src={productList}
+                    alt="product-img"
                     loading="lazy"
                     className="max-h-64 object-cover w-full rounded-t-lg"
                   />
                   <div className="px-5 py-8 sm:px-6">
-                    <h5 className="mb-3 text-xl font-bold">
-                      Info-Tech Website
-                    </h5>
+                    <h5 className="mb-3 text-xl font-bold">API Product List</h5>
                     <p className="flex-col text-gray-500">
-                      Developed a website for Innam Info Technologies to
-                      showcase its features, services, and portfolio, enabling
-                      efficient management of client projects.
+                      Built an e-commerce product list page with API-based
+                      products, featuring filters (range, category), smooth
+                      scrolling, animations, and an "Add to Cart" button.
+                      Includes toast notifications on adding products to the
+                      cart.
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
-                        <p>WEB DESIGN</p>
+                        <p>UI & UX</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
                         <p>REACT JS</p>
                       </div>
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
-                        <p>BOOTSTRAP</p>
+                        <p>AOS</p>
                       </div>
                     </div>
                     <div className="flex flex-wrap items-center justify-between gap-4">
                       <a
-                        href="https://inamtech.netlify.app"
+                        href="https://e-commerce-productlist-api.netlify.app"
                         className="r flex max-w-full gap-2.5 text-sm font-bold uppercase text-black"
                       >
                         <p>VISIT WEBSITE</p>
@@ -244,6 +245,52 @@ const Projects = () => {
                   data-aos-duration="1000"
                 >
                   <img
+                    src={info}
+                    alt="info-img"
+                    loading="lazy"
+                    className="max-h-64 object-cover w-full rounded-t-lg"
+                  />
+                  <div className="px-5 py-8 sm:px-6">
+                    <h5 className="mb-3 text-xl font-bold">
+                      Info-Tech Website
+                    </h5>
+                    <p className="flex-col text-gray-500">
+                      Developed a website for Innam Info Technologies to
+                      showcase its features, services, and portfolio, enabling
+                      efficient management of client projects.
+                    </p>
+                    <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>UI & UX</p>
+                      </div>
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>REACT JS</p>
+                      </div>
+                      <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
+                        <p>BOOTSTRAP</p>
+                      </div>
+                    </div>
+                    <div className="flex flex-wrap items-center justify-between gap-4">
+                      <a
+                        href="https://inamtech.netlify.app"
+                        className="r flex max-w-full gap-2.5 text-sm font-bold uppercase text-black"
+                      >
+                        <p>VISIT WEBSITE</p>
+                        <img
+                          src="https://assets.website-files.com/6458c625291a94a195e6cf3a/64b636d7c440a74b4076b278_button-link.svg"
+                          alt=""
+                          className="inline-block"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
+                >
+                  <img
                     src={api_list}
                     alt="apilist-img"
                     loading="lazy"
@@ -287,7 +334,7 @@ const Projects = () => {
                 <div
                   className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                 >
                   <img
                     src={Converter}
@@ -334,7 +381,7 @@ const Projects = () => {
                 <div
                   className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="1000"
+                  data-aos-duration="2000"
                 >
                   <img
                     src={calculator}
@@ -379,7 +426,7 @@ const Projects = () => {
                 <div
                   className="mb-12 md:w-[400px] w-full  hover:shadow-xl border border-solid rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="2000"
+                  data-aos-duration="1000"
                 >
                   <img
                     src={clock}
@@ -424,7 +471,7 @@ const Projects = () => {
                 <div
                   className="mb-12 md:w-[400px] w-full  border border-solid hover:shadow-xl rounded-lg border-gray-300 md:mb-8 lg:mb-10"
                   data-aos="fade-up"
-                  data-aos-duration="1000"
+                  data-aos-duration="2000"
                 >
                   <img
                     src={todo}
@@ -622,7 +669,8 @@ const Projects = () => {
                     <p className="flex-col text-gray-500">
                       Developed a website to display hostels with their
                       locations and listed features. Users can book hostel rooms
-                      through the booking form provided. (Currently under development process)
+                      through the booking form provided. (Currently under
+                      development process)
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
@@ -668,7 +716,8 @@ const Projects = () => {
                     <p className="flex-col text-gray-500">
                       Developed a website for Keyan Technologies to showcase its
                       features, services, and portfolio, enabling efficient
-                      management of client projects. (Currently under development process)
+                      management of client projects. (Currently under
+                      development process)
                     </p>
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
