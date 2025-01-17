@@ -78,9 +78,8 @@ const About = () => {
               >
                 <h4 className="font-bold font-serif">Experience</h4>
                 <p className="text-sm font-serif">
-                  I have 1 year of experience as a front-end developer at Adventure Technologies. And I'm
-                  currently working at <b>"Inetz Technologies"</b> also handling
-                  the clients projects as a front-end developer.
+                  I have 1+ year's of experience as a front-end developer at <b>Adventure Technologies</b> also handling
+                  the clients projects.(2024)
                 </p>
               </div>
             </div>
