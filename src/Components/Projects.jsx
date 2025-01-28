@@ -74,9 +74,11 @@ const Projects = () => {
                   <div className="px-5 py-8 sm:px-6">
                     <h5 className="mb-3 text-xl font-bold">Flight-Booking</h5>
                     <p className="flex-col text-gray-500">
-                      Currently the development process going on for Flight
-                      booking website.
+                      Building an intuitive flight booking website with seamless
+                      booking, and responsive design for a smooth user
+                      experience.
                     </p>
+
                     <div className="mb-5 mt-6 flex flex-wrap gap-2 md:mb-6 lg:mb-8">
                       <div className="rounded-sm bg-gray-300 p-2 text-sm font-semibold uppercase text-blue-800">
                         <p>UI & UX</p>
@@ -160,7 +162,9 @@ const Projects = () => {
                     className="max-h-64 object-cover w-full rounded-t-lg"
                   />
                   <div className="px-5 py-8 sm:px-6">
-                    <h5 className="mb-3 text-xl font-bold">API Product List</h5>
+                    <h5 className="mb-3 text-xl font-bold">
+                      API Products List
+                    </h5>
                     <p className="flex-col text-gray-500">
                       Built an e-commerce product list page with API-based
                       products, featuring filters (range, category), smooth
